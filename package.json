@@ -1,0 +1,36 @@
+{
+    "name": "simplon-syntax-highlight",
+    "displayName": "SimplON Basic support",
+    "description": "Highlight, comments, snippets",
+    "publisher": "nicoverali",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages", "Snippets"
+    ],
+    "contributes": {
+        "configurationDefaults": {
+            "[simplon]": {
+              "editor.wordBasedSuggestions": false
+            }
+        },
+        "languages": [{
+            "id": "simplon",
+            "aliases": ["SimplON", "simplon"],
+            "extensions": [".SimplON"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "simplon",
+            "scopeName": "source.SimplON",
+            "path": "./syntaxes/simplon.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "simplon",
+            "scopeName": "source.SimplON",
+            "path": "./snippets/simplon.snippets.json"
+        }]
+    }
+}

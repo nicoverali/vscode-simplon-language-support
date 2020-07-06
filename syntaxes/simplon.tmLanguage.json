@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SimplON",
+	"patterns": [
+		{
+			"include": "#instructions"
+		},
+		{
+			"include": "#registers"
+		},
+		{
+			"include": "#annotations"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"instructions": {
+			"patterns": [{
+				"name": "keyword.control.simplon",
+				"match": "\\b(?i)(setd|seth|setactual|setlibre|setin|setout|setpo|setlabel|jumpt|jump|halt)\\b"
+			}]
+		},
+		"registers": {
+			"patterns": [{
+				"name": "constant.language.simplon",
+				"match": "\\b(Actual|Libre|(?i)pc|po)\\b"
+			}]
+		},
+		"annotations": {
+			"patterns": [{
+				"name": "support.other.simplon",
+				"match": "@.+?(?=(%|\r\n|\r|\n))"
+			}]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.number-sign.simplon",
+				"match": "%.*(\r\n|\r|\n)"
+			}]
+		}
+	},
+	"scopeName": "source.SimplON"
+}

@@ -1,0 +1,57 @@
+{
+    "SetD": {
+      "prefix": ["sd, setd"],
+      "body": ["SetD ${1:destino}, ${2:fuente}"],
+      "description": "Cambia los valores almacenados en la memoria D"
+    },
+    "SetH": {
+        "prefix": ["sh, seth"],
+        "body": ["SetH ${1:destino}, ${2:fuente}"],
+        "description": "Cambia los valores almacenados en la memoria H"
+    },
+    "SetActual": {
+        "prefix": ["sactual, setactual"],
+        "body": ["SetActual ${1:fuente}"],
+        "description": "Cambiar el valor de Actual"
+    },
+    "SetLibre": {
+        "prefix": ["slibre, setlibre"],
+        "body": ["SetLibre ${1:fuente}"],
+        "description": "Cambiar el valor de Libre"
+    },
+    "SetPO": {
+        "prefix": ["spo, setpo"],
+        "body": ["SetPO ${1:fuente}"],
+        "description": "Cambiar el valor de PO"
+    },
+    "SetLabel": {
+        "prefix": ["slabel, setlabel"],
+        "body": ["SetLabel ${1:identificador}, ${2:fuente}"],
+        "description": "Cambiar el valor de PO"
+    },
+    "Jump": {
+        "prefix": ["j, jmp, jump"],
+        "body": ["Jump ${1:fuente}"],
+        "description": "Realiza saltos incondicionales, modifcando el pc"
+    },
+    "JumpT": {
+        "prefix": ["jt, jmpt, jumpt"],
+        "body": ["JumpT ${1:fuente}, ${2:condición}"],
+        "description": "Realiza saltos condicionales, modifcando el pc"
+    },
+    "Halt": {
+        "prefix": ["h, hl, halt"],
+        "body": ["Halt"],
+        "description": "Finaliza la ejecución del programa actualmente cargado"
+    },
+
+
+    "MethodGroup": {
+        "prefix": ["traduccion"],
+        "body": ["%%%--------------------Traduccion de ${1:método} de la clase ${2:clase}-------------------------",
+            "${4:etiqueta}\t${3:traducción}",
+            "%%%-----------------------------------------------------------------------------"],
+        "description": "Finaliza la ejecución del programa actualmente cargado"
+    }
+
+}
