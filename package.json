@@ -3,36 +3,55 @@
     "displayName": "SimplON Basic support",
     "description": "Highlight, comments, snippets",
     "publisher": "nicoverali",
-    "author": {"name": "Nicolás A. Vera"},
-    "version": "1.0.0",
-    "repository": {"url": "https://github.com/nicoverali/vscode-simplon-language-support"},
+    "author": {
+        "name": "Nicolás A. Vera"
+    },
+    "version": "1.0.1",
+    "repository": {
+        "url": "https://github.com/nicoverali/vscode-simplon-language-support"
+    },
     "engines": {
         "vscode": "^1.46.0"
     },
     "categories": [
-        "Programming Languages", "Snippets"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "configurationDefaults": {
             "[simplon]": {
-              "editor.wordBasedSuggestions": false
+                "editor.wordBasedSuggestions": false
             }
         },
-        "languages": [{
-            "id": "simplon",
-            "aliases": ["SimplON", "simplon"],
-            "extensions": [".SimplON", ".simplon", ".son", ".smplon"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "simplon",
-            "scopeName": "source.SimplON",
-            "path": "./syntaxes/simplon.tmLanguage.json"
-        }],
-        "snippets": [{
-            "language": "simplon",
-            "scopeName": "source.SimplON",
-            "path": "./snippets/simplon.snippets.json"
-        }]
+        "languages": [
+            {
+                "id": "simplon",
+                "aliases": [
+                    "SimplON",
+                    "simplon"
+                ],
+                "extensions": [
+                    ".SimplON",
+                    ".simplon",
+                    ".son",
+                    ".smplon"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "simplon",
+                "scopeName": "source.SimplON",
+                "path": "./syntaxes/simplon.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "simplon",
+                "scopeName": "source.SimplON",
+                "path": "./snippets/simplon.snippets.json"
+            }
+        ]
     }
 }
