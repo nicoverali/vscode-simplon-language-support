@@ -25,12 +25,12 @@
 		"registers": {
 			"patterns": [{
 				"name": "constant.language.simplon",
-				"match": "\\b(Actual|Libre|(?i)pc|po)\\b"
+				"match": "\\b(Actual|Libre|actual|libre|(?i)pc|po)\\b"
 			}]
 		},
 		"annotations": {
 			"patterns": [{
-				"name": "support.other.simplon",
+				"name": "entity.name.tag.simplon",
 				"match": "@.+?(?=(%|\r\n|\r|\n))"
 			}]
 		},
