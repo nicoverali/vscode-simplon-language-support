@@ -6,16 +6,16 @@ Extensión de VSCode que brinda un soporte básico a la implementación SimplON,
 
 - **Resaltado** para la sintaxis del lenguaje
 
-![Highlight example](./resources/highlight-example.png)
+![Highlight example](https://raw.githubusercontent.com/nicoverali/vscode-simplon-language-support/master/resources/highlight-example.png)
 
 - **Comentarios** habilitados. Ver en configuración de VSCode como añadir un comentario de linea, por defecto es **Ctrl+/**
 
-![Comments example](./resources/comments-example.gif)
+![Comments example](https://raw.githubusercontent.com/nicoverali/vscode-simplon-language-support/master/resources/comments-example.gif)
 
 
 - **Snippets** basicos para las instrucciones del lenguaje
 
-![Snippets example](./resources/snippets-example.gif)
+![Snippets example](https://raw.githubusercontent.com/nicoverali/vscode-simplon-language-support/master/resources/snippets-example.gif)
 
 
 

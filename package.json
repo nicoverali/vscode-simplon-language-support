@@ -4,6 +4,7 @@
     "description": "Highlight, comments, snippets",
     "publisher": "nicoverali",
     "version": "1.0.0",
+    "repository": {"url": "https://github.com/nicoverali/vscode-simplon-language-support"},
     "engines": {
         "vscode": "^1.46.0"
     },
