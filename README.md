@@ -1,6 +1,8 @@
 # SimplON - Basic support 
 
-Extensión de VSCode que brinda un soporte básico a la implementación SimplON, del procesador abstracto SimpleSem.
+Extensión de VSCode que brinda un soporte básico a la implementación SimplON, del procesador abstracto SimpleSem. 
+
+Esta implementación en particular es una variante utilizada academicamente en la materia _Lenguajes de Programación_ de la UNS (Universidad Nacional del Sur) 📚🎓
 
 ## Caracteristicas
 
