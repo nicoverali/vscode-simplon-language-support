@@ -3,6 +3,7 @@
     "displayName": "SimplON Basic support",
     "description": "Highlight, comments, snippets",
     "publisher": "nicoverali",
+    "author": {"name": "Nicolás A. Vera"},
     "version": "1.0.0",
     "repository": {"url": "https://github.com/nicoverali/vscode-simplon-language-support"},
     "engines": {
@@ -20,7 +21,7 @@
         "languages": [{
             "id": "simplon",
             "aliases": ["SimplON", "simplon"],
-            "extensions": [".SimplON"],
+            "extensions": [".SimplON", ".simplon", ".son", ".smplon"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
